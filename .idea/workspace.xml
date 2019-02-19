@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca15186a-0ad3-416a-91c8-cd01269b70c6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/django_restful_demo$database.coverage" NAME="database Coverage Results" MODIFIED="1550567000058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/core/checks" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-703913531">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2131" />
+          <entry key="py@django_restful_demo" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="57" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Python" value="2131" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="39" />
+          <entry key="sqlite3" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="39" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="django_restful_demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day07/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+              <folding>
+                <element signature="e#15#64#0" expanded="true" />
+                <marker date="1550579742739" expanded="true" signature="579:768" ph="..." />
+                <marker date="1550579742739" expanded="true" signature="792:793" ph="..." />
+                <marker date="1550579742739" expanded="true" signature="1513:1865" ph="..." />
+                <marker date="1550579742739" expanded="true" signature="2032:2040" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="381" column="51" selection-start-line="381" selection-start-column="38" selection-end-line="381" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="325" selection-start-line="325" selection-end-line="325" />
+              <folding>
+                <element signature="e#4257#4463#1" />
+                <element signature="e#4554#4912#0" />
+                <element signature="e#4594#4857#0" />
+                <element signature="e#4634#4839#0" />
+                <element signature="e#5040#5106#0" />
+                <element signature="e#5245#5341#1" />
+                <element signature="e#5699#5892#0" />
+                <element signature="e#5699#5834#1" />
+                <element signature="e#5958#6235#0" />
+                <element signature="e#5958#6053#1" />
+                <element signature="e#6285#6417#0" />
+                <element signature="e#6285#6376#1" />
+                <element signature="e#6475#6755#0" />
+                <element signature="e#6475#6611#1" />
+                <element signature="e#6813#7220#0" />
+                <element signature="e#6813#6943#1" />
+                <element signature="e#6952#7016#0" />
+                <element signature="e#7086#7220#0" />
+                <element signature="e#7266#7721#0" />
+                <element signature="e#7266#7401#1" />
+                <element signature="e#7410#7476#0" />
+                <element signature="e#7532#7721#0" />
+                <element signature="e#7776#8099#0" />
+                <element signature="e#7776#7894#1" />
+                <element signature="e#7910#8099#0" />
+                <element signature="e#8138#8320#0" />
+                <element signature="e#8138#8246#1" />
+                <element signature="e#8378#8594#0" />
+                <element signature="e#8378#8507#1" />
+                <element signature="e#8687#8885#0" />
+                <element signature="e#8687#8774#1" />
+                <element signature="e#8924#9084#0" />
+                <element signature="e#8924#9018#1" />
+                <element signature="e#9121#9273#0" />
+                <element signature="e#9121#9213#1" />
+                <element signature="e#9317#9480#0" />
+                <element signature="e#9317#9416#1" />
+                <element signature="e#9521#9690#0" />
+                <element signature="e#9521#9618#1" />
+                <element signature="e#9729#9886#0" />
+                <element signature="e#9729#9820#1" />
+                <element signature="e#9934#10165#0" />
+                <element signature="e#9934#10018#1" />
+                <element signature="e#10212#10333#0" />
+                <element signature="e#10212#10286#1" />
+                <element signature="e#10449#10852#0" />
+                <element signature="e#10449#10540#1" />
+                <element signature="e#10762#10852#0" />
+                <element signature="e#10909#11177#1" />
+                <element signature="e#11250#11631#0" />
+                <element signature="e#11250#11388#1" />
+                <element signature="e#11451#11631#0" />
+                <element signature="e#11516#11631#0" />
+                <element signature="e#11695#12107#0" />
+                <element signature="e#11695#11852#1" />
+                <element signature="e#11915#12107#0" />
+                <element signature="e#11992#12107#0" />
+                <element signature="e#12157#12448#0" />
+                <element signature="e#12157#12287#1" />
+                <element signature="e#12346#12448#0" />
+                <element signature="e#12517#12877#0" />
+                <element signature="e#12517#12686#1" />
+                <element signature="e#14221#15402#0" />
+                <element signature="e#14221#14279#1" />
+                <element signature="e#14419#14550#0" />
+                <element signature="e#14646#15057#0" />
+                <element signature="e#14714#14850#0" />
+                <element signature="e#15449#16296#0" />
+                <element signature="e#15449#15577#1" />
+                <element signature="e#15606#15694#0" />
+                <element signature="e#15710#15995#0" />
+                <element signature="e#16351#16647#0" />
+                <element signature="e#16382#16633#0" />
+                <element signature="e#16881#17048#1" />
+                <element signature="e#17963#18271#0" />
+                <element signature="e#17963#18029#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day02/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1550557154779" expanded="true" signature="473:537" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/993057604/_md5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/hashlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_restful_demo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <element signature="e#643#675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day02/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>token_list</find>
+      <find>Response</find>
+      <find>authenticate</find>
+      <find>_user</find>
+      <find>initial</find>
+      <find>message</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day01/views.py" />
+        <option value="$PROJECT_DIR$/day02/views.py" />
+        <option value="$PROJECT_DIR$/day03/views.py" />
+        <option value="$PROJECT_DIR$/day04/views.py" />
+        <option value="$PROJECT_DIR$/day05/views.py" />
+        <option value="$PROJECT_DIR$/day06/views.py" />
+        <option value="$PROJECT_DIR$/day07/admin.py" />
+        <option value="$PROJECT_DIR$/django_restful_demo/settings.py" />
+        <option value="$PROJECT_DIR$/day07/models.py" />
+        <option value="$PROJECT_DIR$/django_restful_demo/urls.py" />
+        <option value="$PROJECT_DIR$/day07/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="191" />
+    <option name="y" value="122" />
+    <option name="width" value="1528" />
+    <option name="height" value="906" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_restful_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_restful_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_restful_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_restful_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="django_restful_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="request.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="django_restful_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="djangorestframework_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="request.py" type="8704e2dd:PyFileNode" />
+              <item name="Request" type="dd8bbb05:PyElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="d&#9;RUN_CONFIGURATION&#9;database&#10;database&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/ProgramData/Anaconda3/envs/Douban/python.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.django_restful_demo">
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django_restful_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/core/checks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/core/checks/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="django_restful_demo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_restful_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="django_restful_demo.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.django_restful_demo" />
+      <item itemvalue="Python.database" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.database" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca15186a-0ad3-416a-91c8-cd01269b70c6" name="Default Changelist" comment="" />
+      <created>1550542872267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550542872267</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="191" y="122" width="1528" height="906" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.1873297" />
+      <window_info id="Structure" order="1" sideWeight="0.5005807" side_tool="true" weight="0.3671141" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005807" side_tool="true" weight="0.3671141" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6723433" weight="0.23415264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.66898954" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.329849" />
+      <window_info anchor="bottom" id="manage.py@django_restful_demo" order="8" weight="0.37746805" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3276567" side_tool="true" visible="true" weight="0.23415264" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="10" weight="0.329849" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329849" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.329849" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="721" y="284" width="484" height="536" id="SciView" order="3" weight="0.32970026" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day04/views.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_restful_demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#16#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#389#1047#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_restful_demo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1550566358630" expanded="true" signature="104:109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#45#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#45#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/django/core/checks/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_restful_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/993057604/_md5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_restful_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="381" column="51" selection-start-line="381" selection-start-column="38" selection-end-line="381" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1550557154779" expanded="true" signature="473:537" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+          <folding>
+            <element signature="e#4257#4463#1" />
+            <element signature="e#4554#4912#0" />
+            <element signature="e#4594#4857#0" />
+            <element signature="e#4634#4839#0" />
+            <element signature="e#5040#5106#0" />
+            <element signature="e#5245#5341#1" />
+            <element signature="e#5699#5892#0" />
+            <element signature="e#5699#5834#1" />
+            <element signature="e#5958#6235#0" />
+            <element signature="e#5958#6053#1" />
+            <element signature="e#6285#6417#0" />
+            <element signature="e#6285#6376#1" />
+            <element signature="e#6475#6755#0" />
+            <element signature="e#6475#6611#1" />
+            <element signature="e#6813#7220#0" />
+            <element signature="e#6813#6943#1" />
+            <element signature="e#6952#7016#0" />
+            <element signature="e#7086#7220#0" />
+            <element signature="e#7266#7721#0" />
+            <element signature="e#7266#7401#1" />
+            <element signature="e#7410#7476#0" />
+            <element signature="e#7532#7721#0" />
+            <element signature="e#7776#8099#0" />
+            <element signature="e#7776#7894#1" />
+            <element signature="e#7910#8099#0" />
+            <element signature="e#8138#8320#0" />
+            <element signature="e#8138#8246#1" />
+            <element signature="e#8378#8594#0" />
+            <element signature="e#8378#8507#1" />
+            <element signature="e#8687#8885#0" />
+            <element signature="e#8687#8774#1" />
+            <element signature="e#8924#9084#0" />
+            <element signature="e#8924#9018#1" />
+            <element signature="e#9121#9273#0" />
+            <element signature="e#9121#9213#1" />
+            <element signature="e#9317#9480#0" />
+            <element signature="e#9317#9416#1" />
+            <element signature="e#9521#9690#0" />
+            <element signature="e#9521#9618#1" />
+            <element signature="e#9729#9886#0" />
+            <element signature="e#9729#9820#1" />
+            <element signature="e#9934#10165#0" />
+            <element signature="e#9934#10018#1" />
+            <element signature="e#10212#10333#0" />
+            <element signature="e#10212#10286#1" />
+            <element signature="e#10449#10852#0" />
+            <element signature="e#10449#10540#1" />
+            <element signature="e#10762#10852#0" />
+            <element signature="e#10909#11177#1" />
+            <element signature="e#11250#11631#0" />
+            <element signature="e#11250#11388#1" />
+            <element signature="e#11451#11631#0" />
+            <element signature="e#11516#11631#0" />
+            <element signature="e#11695#12107#0" />
+            <element signature="e#11695#11852#1" />
+            <element signature="e#11915#12107#0" />
+            <element signature="e#11992#12107#0" />
+            <element signature="e#12157#12448#0" />
+            <element signature="e#12157#12287#1" />
+            <element signature="e#12346#12448#0" />
+            <element signature="e#12517#12877#0" />
+            <element signature="e#12517#12686#1" />
+            <element signature="e#14221#15402#0" />
+            <element signature="e#14221#14279#1" />
+            <element signature="e#14419#14550#0" />
+            <element signature="e#14646#15057#0" />
+            <element signature="e#14714#14850#0" />
+            <element signature="e#15449#16296#0" />
+            <element signature="e#15449#15577#1" />
+            <element signature="e#15606#15694#0" />
+            <element signature="e#15710#15995#0" />
+            <element signature="e#16351#16647#0" />
+            <element signature="e#16382#16633#0" />
+            <element signature="e#16881#17048#1" />
+            <element signature="e#17963#18271#0" />
+            <element signature="e#17963#18029#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/djangorestframework_test/Lib/site-packages/rest_framework/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+          <folding>
+            <element signature="e#15#64#0" expanded="true" />
+            <marker date="1550579742739" expanded="true" signature="579:768" ph="..." />
+            <marker date="1550579742739" expanded="true" signature="792:793" ph="..." />
+            <marker date="1550579742739" expanded="true" signature="1513:1865" ph="..." />
+            <marker date="1550579742739" expanded="true" signature="2032:2040" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
