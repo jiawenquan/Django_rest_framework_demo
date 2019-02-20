@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# 请求头认证
+# todo: 请求头认证
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.authentication import BaseAuthentication
@@ -30,6 +30,7 @@ class TestAuthentication(BaseAuthentication):
 
         username, part, password = base64.b64decode(auth[1]).decode("utf-8").partition(':')
 
+        print(username, part, password)
         if username == "alex" and password == "123":
 
             return ("alex", "123")
@@ -42,18 +43,21 @@ class TestAuthentication(BaseAuthentication):
         header in a `401 Unauthenticated` response, or `None` if the
         authentication scheme should return `403 Permission Denied` responses.
         """
-        return 'Basic realm=api'
+        return 'Basic realm=api'  # 请求头登录
 
 
 class TestView04(APIView):
     # authentication_classes = [TestAuthentication, ]
-    permission_classes = []
+    # permission_classes = []
 
     def get(self, request, *args, **kwargs):
         # auth = request.META.get("HTTP_AUTHORIZATION", b"")
         # raise exceptions.AuthenticationFailed('用户名或密码错误')
         print(request.user)
         print(request.auth)
+        # msg = 'Invalid basic header. No credentials provided.'
+        # raise exceptions.AuthenticationFailed(msg)
+
         return Response('GET请求，响应内容')
 
     def post(self, request, *args, **kwargs):

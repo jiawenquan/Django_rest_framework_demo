@@ -19,8 +19,7 @@ class TestAuthentication(BaseAuthentication):
         val = request.query_params.get('token')
         if val not in token_list:
             raise exceptions.AuthenticationFailed("用户认证失败")
-
-        return ('123管理员', '用户token')
+        return (request._request.user, val)
 
     def authenticate_header(self, request):
         """
@@ -33,6 +32,10 @@ class TestAuthentication(BaseAuthentication):
 
 class TestPermission(BasePermission):
     message = "权限验证失败"
+    """
+    has_permission 是用户对这个视图有没有 GET POST PUT PATCH DELETE 权限的分别判断。
+    has_object_permission 是用户过了 has_permission 判断有权限以后，再判断这个用户有没有对一个具体的对象有没有操作权限。
+    """
 
     def has_permission(self, request, view):
         """
@@ -42,21 +45,14 @@ class TestPermission(BasePermission):
         :param view: 
         :return: True有权限；False无权限
         """
-        if request.user == "管理员":
+        if request.user.username == "admin":
             return True
+
+        return False
 
     # GenericAPIView中get_object时调用
     def has_object_permission(self, request, view, obj):
-        """
-        视图继承GenericAPIView，并在其中使用get_object时获取对象时，触发单独对象权限验证
-        Return `True` if permission is granted, `False` otherwise.
-        :param request: 
-        :param view: 
-        :param obj: 
-        :return: True有权限；False无权限
-        """
-        if request.user == "管理员":
-            return True
+        return True
 
 
 class TestView06(APIView):
@@ -69,8 +65,8 @@ class TestView06(APIView):
 
     def get(self, request, *args, **kwargs):
         # self.dispatch
-        print(request.user)
-        print(request.auth)
+        # print(request.user)
+        # print(request.auth)
         return Response('GET请求，响应内容')
 
     def post(self, request, *args, **kwargs):

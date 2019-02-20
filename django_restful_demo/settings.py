@@ -1,3 +1,4 @@
+# coding:utf-8
 """
 Django settings for django_restful_demo project.
 
@@ -35,14 +36,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'day01.apps.Day01Config',
     'day02.apps.Day02Config',
     'day03.apps.Day03Config',
+    'day03_1',
     'day04.apps.Day04Config',
     'day05.apps.Day05Config',
     'day06.apps.Day06Config',
     'day07.apps.Day07Config',
-    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -121,3 +123,34 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# # day03_1
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': ['day03_1.utils.auth.TestAuthentication']
+# }
+#
+# # day04
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': ['day03_1.utils.auth.TestAuthentication']
+# }
+
+
+# day07
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": ['day07.utils.auth.Authentication', ],
+    "DEFAULT_PERMISSION_CLASSES": ['day07.utils.permission.SVIPPermission',],
+    # "DEFAULT_AUTHENTICATION_CLASSES": ['rest_framework.authentication.BasicAuthentication'],
+    #     "UNAUTHENTICATED_USER": lambda: "匿名用户",
+    #     "UNAUTHENTICATED_USER": None,
+    #     "UNAUTHENTICATED_TOKEN": None,
+
+}
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework.authentication.BasicAuthentication',
+#         # 'rest_framework.authentication.SessionAuthentication',
+#
+#     ),
+#     "UNAUTHENTICATED_USER": lambda: "匿名用户",
+# }

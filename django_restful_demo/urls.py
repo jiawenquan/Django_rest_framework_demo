@@ -18,19 +18,22 @@ from django.urls import path
 from day01.views import Users
 from day02.views import TestView02
 from day03.views import TestView03
+from day03_1.views import TestView03_1
 from day04.views import TestView04
 from day05.views import TestView05
 from day06.views import TestView06
-from day07.views import AuthView, OrderView
+from day07.views import AuthView, OrderView, UserInfoView
 
 urlpatterns = [
     path('users/', Users.as_view()),
     path('test02/', TestView02.as_view()),
     path('test03/', TestView03.as_view()),
+    path('test03_1/', TestView03_1.as_view()),
     path('test04/', TestView04.as_view()),
     path('test05/', TestView05.as_view()),
     path('test06/', TestView06.as_view()),
     path('api/v1/auth/', AuthView.as_view()),
     path('api/v1/order/', OrderView.as_view()),
+    path('api/v1/info/', UserInfoView.as_view()),
     path('admin/', admin.site.urls),
 ]

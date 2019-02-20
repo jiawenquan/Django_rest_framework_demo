@@ -1,9 +1,12 @@
-# coding:utf-8
-# 认证和授权   用户url传入的token认证
-from rest_framework.views import APIView
-from rest_framework.response import Response
+# encoding: utf-8
+'''
+@author: allen-jia
+@file: auth.py
+@time: 2019/2/20 0020 11:54
+@desc:
+'''
+
 from rest_framework.authentication import BaseAuthentication
-from rest_framework.request import Request
 from rest_framework import exceptions
 
 token_list = [
@@ -14,11 +17,12 @@ token_list = [
 
 class TestAuthentication(BaseAuthentication):
     def authenticate(self, request):
-
         val = request.query_params.get('token')
         if val not in token_list:
             raise exceptions.AuthenticationFailed("用户认证失败")
         user = request._request.user
+
+        print(user, val)
         return (user, val)
 
     def authenticate_header(self, request):
@@ -29,19 +33,3 @@ class TestAuthentication(BaseAuthentication):
         """
         # 验证失败时，返回的响应头WWW-Authenticate对应的值
         pass
-
-
-class TestView03(APIView):
-    authentication_classes = [TestAuthentication, ]
-    permission_classes = []
-
-    def get(self, request, *args, **kwargs):
-        print(request.user)
-        print(request.auth)
-        return Response('GET请求，响应内容')
-
-    def post(self, request, *args, **kwargs):
-        return Response('POST请求，响应内容')
-
-    def put(self, request, *args, **kwargs):
-        return Response('PUT请求，响应内容')
