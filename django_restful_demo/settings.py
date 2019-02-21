@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'day04.apps.Day04Config',
     'day05.apps.Day05Config',
     'day06.apps.Day06Config',
+    'day06_1',
     'day07.apps.Day07Config',
+    'day08'
 ]
 
 MIDDLEWARE = [
@@ -135,22 +137,35 @@ STATIC_URL = '/static/'
 # }
 
 
-# day07
-REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": ['day07.utils.auth.Authentication', ],
-    "DEFAULT_PERMISSION_CLASSES": ['day07.utils.permission.SVIPPermission',],
-    # "DEFAULT_AUTHENTICATION_CLASSES": ['rest_framework.authentication.BasicAuthentication'],
-    #     "UNAUTHENTICATED_USER": lambda: "匿名用户",
-    #     "UNAUTHENTICATED_USER": None,
-    #     "UNAUTHENTICATED_TOKEN": None,
-
-}
-
+# # day07
 # REST_FRAMEWORK = {
-#     'DEFAULT_AUTHENTICATION_CLASSES': (
-#         'rest_framework.authentication.BasicAuthentication',
-#         # 'rest_framework.authentication.SessionAuthentication',
-#
-#     ),
+#     "DEFAULT_AUTHENTICATION_CLASSES": ['day07.utils.auth.Authentication', ],
+#     "DEFAULT_PERMISSION_CLASSES": ['day07.utils.permission.SVIPPermission', ],
 #     "UNAUTHENTICATED_USER": lambda: "匿名用户",
+#     "UNAUTHENTICATED_USER": None,
+#
 # }
+
+
+# from day06_1.utils.permission import TestPermission
+
+# # day06_1
+# REST_FRAMEWORK = {
+#     'UNAUTHENTICATED_USER': None,
+#     'UNAUTHENTICATED_TOKEN': None,
+#     "DEFAULT_AUTHENTICATION_CLASSES": [
+#         "day06_1.utils.authentication.TestAuthentication",
+#     ],
+#     "DEFAULT_PERMISSION_CLASSES": [
+#         "day06_1.utils.permission.TestPermission",
+#     ],
+# }
+
+
+# day08
+REST_FRAMEWORK = {
+    "DEFAULT_THROTTLE_RATES": {
+        "Luffy": '1/s',
+        "anon": '1/s',
+    }
+}

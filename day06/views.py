@@ -52,8 +52,8 @@ class TestPermission(BasePermission):
 
     # GenericAPIView中get_object时调用
     def has_object_permission(self, request, view, obj):
-        return True
-
+        if request.user.username == "admin":
+            return True
 
 class TestView06(APIView):
     # 认证的动作是由request.user触发

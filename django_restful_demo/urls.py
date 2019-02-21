@@ -22,7 +22,9 @@ from day03_1.views import TestView03_1
 from day04.views import TestView04
 from day05.views import TestView05
 from day06.views import TestView06
+from day06_1.views import TestView06_1
 from day07.views import AuthView, OrderView, UserInfoView
+from day08.views import TestView08
 
 urlpatterns = [
     path('users/', Users.as_view()),
@@ -32,8 +34,10 @@ urlpatterns = [
     path('test04/', TestView04.as_view()),
     path('test05/', TestView05.as_view()),
     path('test06/', TestView06.as_view()),
+    path('test06_1/', TestView06_1.as_view()),
     path('api/v1/auth/', AuthView.as_view()),
     path('api/v1/order/', OrderView.as_view()),
     path('api/v1/info/', UserInfoView.as_view()),
+    path('test08/', TestView08.as_view()),
     path('admin/', admin.site.urls),
 ]
